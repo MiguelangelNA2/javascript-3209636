@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.centrar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1{
+    font-size: 40px;
+}
+.boton{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
