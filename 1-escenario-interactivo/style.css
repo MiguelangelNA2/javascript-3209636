@@ -1,22 +1,75 @@
-body {
-    background-color: rgb(255, 255, 255);
-}
-
 .centrar{
-    height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.h1{
-    font-size: 40px;
+.contenedor{
+    width: 750px;
+    height: 500px;
+    background-image: url("img/Captura\ de\ pantalla\ 2025-10-16\ 142326.png");
+    background-repeat: no-repeat;
 }
-.boton{
-    padding: 10px 20px;
-    font-size: 16px;
+.coins{
+    display: flex;
+    background-color: rgba(68, 68, 68, 0.486);
     border-radius: 10px;
-    background-color: white;
-    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+}
+.contadormonedas{
+    position: absolute;
+    top: 13px;
+    left: 370px;
+    color: white;
+    font-size: 20px;
+}
+.score{
+    display: flex;
+    background-color: rgba(68, 68, 68, 0.486);
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+}
+.pat0{
+    position: absolute;
+    width: 40px;
+}
+.contadorpatos{
+    position: absolute;
+    top: 63px;
+    left: 370px;
+    color: white;
+    font-size: 20px;
+}
+.coin{
+    position: absolute;
+    width: 40px;
+}
+.moneda{
+    width: 50px;
+    position: absolute;
+}
+.m2 {
+    left: 350px;
+}
+.m3 {
+    left: 390px;
+}
+.m4 {
+    left: 430px;
+}
+.m5 {
+    left: 470px;
+}
+.pato{
+    position: absolute;
+    width: 80px;
+    top: 200px;
+    left: 350px;
+}
+.p2{
+    left: 800px;
 }
