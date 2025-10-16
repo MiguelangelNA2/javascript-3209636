@@ -10,5 +10,8 @@ function cambiarColorFondo() {
     } else {
         body.style.backgroundColor = "black";
         body.style.color = "white";
+        boton.style.backgroundColor = "Black";
+        boton.style.color = "White";
     }
 }
+
