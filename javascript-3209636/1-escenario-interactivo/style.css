@@ -58,6 +58,7 @@
     width: 50px;
     position: absolute;
 }
+
 .m2 {
     left: 5%;
 }
@@ -70,6 +71,12 @@
 .m5 {
     left: 20%;
 }
+.nube{
+    position: absolute;
+    width: 150px;
+    top: 10%;
+    left: 50%;
+}
 .pato{
     position: absolute;
     width: 80px;
@@ -78,4 +85,25 @@
 }
 .p2{
     left: 70%;
+}
+
+/* animacion monedas */
+
+@keyframes salto {
+    0% {transform: translateY(0); opacity: 1;}
+    50% {transform: translateY(-60px);}
+    100% {transform: translateY(0);opacity: 0;}
+}
+.saltar{
+    animation: salto 0.6s ease forwards;
+}
+
+/* animacion nube */
+
+@keyframes moverNube {
+    0% {left: 50%;}
+    100% {left: 70%;}
+}
+.movernube{
+    animation: moverNube 10s linear infinite alternate;
 }
