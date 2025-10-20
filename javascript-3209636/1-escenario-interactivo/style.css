@@ -9,6 +9,7 @@
     height: 500px;
     background-image: url("img/Captura\ de\ pantalla\ 2025-10-16\ 142326.png");
     background-size: cover;
+    position: relative;
 }
 .coins{
     display: flex;
@@ -20,8 +21,8 @@
 }
 .contadormonedas{
     position: absolute;
-    top: 13px;
-    left: 370px;
+    top: 1%;
+    left: 10%;
     color: white;
     font-size: 20px;
 }
@@ -44,8 +45,8 @@
 }
 .contadorpatos{
     position: absolute;
-    top: 63px;
-    left: 370px;
+    top: 11%;
+    left: 10%;
     color: white;
     font-size: 20px;
 }
@@ -58,23 +59,23 @@
     position: absolute;
 }
 .m2 {
-    left: 350px;
+    left: 5%;
 }
 .m3 {
-    left: 390px;
+    left:10%;
 }
 .m4 {
-    left: 430px;
+    left: 15%;
 }
 .m5 {
-    left: 470px;
+    left: 20%;
 }
 .pato{
     position: absolute;
     width: 80px;
-    top: 280px;
-    left: 350px;
+    top: 60%;
+    left: 20%;
 }
 .p2{
-    left: 800px;
+    left: 70%;
 }
