@@ -1,35 +1,44 @@
+const monedas = document.querySelectorAll('.moneda');
+console.log(monedas);//no puede dar null
+const patos = document.querySelectorAll('.pato')
+let i = 0
+let j = 0
+
 // Contadores
 let contadorMonedas = document.querySelector('.contadormonedas');
 let contadorPatos = document.querySelector('.contadorpatos');
+console.log(contadorMonedas);
 
-// Monedas individuales
-let moneda1 = document.querySelector('.m1');
-let moneda2 = document.querySelector('.m2');
-let moneda3 = document.querySelector('.m3');
-let moneda4 = document.querySelector('.m4');
-let moneda5 = document.querySelector('.m5');
+//crear las funciones
 
-// todas las monedas
-const monedas = document.querySelectorAll('.moneda');
+monedas.forEach( item => {
+    //hace lo que yo le diga aqui
+    console.log("elemento: ", item);
+    /* item.style.filter = "grayscale(1)"; */
 
-// Patos
-let pato1 = document.querySelector('.pato');
-let pato2 = document.querySelector('.p2');
+    item.addEventListener("click", () => {//() =>  es igual a function
+        item.classList.add("saltar")
+        item.style.filter = "grayscale(1)"
+        i++
+        contadorMonedas.textContent = i
+})
 
-//nube
-let nube = document.querySelector('.nube');
+    item.addEventListener("animationend", () => {
+        item.style.display = "none"
+    }, {once: true})
 
-// Variables de puntos
-let puntosMonedas = 0;
-let puntosPatos = 0;
+})
 
-monedas.addEventListener('click', function(e) {
-    let monedaClickeada = e.target;
-    monedaClickeada.classList.add('saltar');
-    puntosMonedas++;
-    contadorMonedas.textContent = puntosMonedas;
-});
+patos.forEach( item => {
+    item.addEventListener("click", () => {
+        item.classList.add("bajar")
+        item.style.filter = "grayscale(1)"
+        j++ 
+        contadorPatos.textContent = j
+    })
 
-nube.addEventListener('click', function() {
-    nube.classList.add('movernube');
-});
+    item.addEventListener("animationend", () => {
+        item.style.display = "none"
+    }, {once: true})
+})
+
