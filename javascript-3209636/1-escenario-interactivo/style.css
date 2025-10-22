@@ -37,7 +37,10 @@
 .vidas{
     position: absolute;
     top: 20px;
-    left: 930px;
+    left: 630px;
+}
+.vida{
+    width: 30px;
 }
 .pat0{
     position: absolute;
@@ -110,4 +113,65 @@
 }
 .movernube{
     animation: moverNube 10s linear infinite alternate;
+}
+
+.contenedor2{
+    width: 750px;
+    height: 500px;
+    background-image: url("img/fondo2.png");
+    background-size: cover;
+    position: relative;
+}
+.personaje{
+    position: absolute;
+    width: 60px;
+    top: 58%;
+    left: 19%;
+}
+
+.m11{
+    position: absolute;
+    left: 60%;
+    top: 60%;
+}
+.m21{
+    position: absolute;
+    left: 55%;
+    top: 60%;
+}
+.m31{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+}
+.contenedor3{
+    width: 750px;
+    height: 500px;
+    background-image: url("img/fondo3.png");
+    background-size: cover;
+    position: relative;
+}
+.manzana{
+    width: 50px;
+    position: absolute;
+}
+.ma1{
+    top: 30%;
+    left: 50%;
+}
+.ma2{
+    top: 80%;
+    left: 30%;
+}
+.ma3{
+    top: 40%;
+    left: 70%;
+}
+.ma4{
+    top: 60%;
+    left: 50%;
+}
+.ma5{
+    top: 10%;
+    left: 40%;
 }
