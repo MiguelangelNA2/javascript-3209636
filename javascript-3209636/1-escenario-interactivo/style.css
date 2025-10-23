@@ -19,7 +19,22 @@
     height: 40px;
     margin: 10px;
 }
+.coins2{
+    display: flex;
+    background-color: rgba(68, 68, 68, 0.486);
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+}
 .contadormonedas{
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+}
+.contadormonedas2{
     position: absolute;
     top: 1%;
     left: 10%;
@@ -54,6 +69,10 @@
     font-size: 20px;
 }
 .coin{
+    position: absolute;
+    width: 40px;
+}
+.coin2{
     position: absolute;
     width: 40px;
 }
@@ -144,6 +163,17 @@
     left: 50%;
     top: 60%;
 }
+
+.moverpersonaje{
+    animation: moverPersonaje 0.8s linear infinite alternate;
+}
+
+@keyframes moverPersonaje{
+    0% {left: 19%;}
+    100% {left: 32%;}
+}
+
+
 .contenedor3{
     width: 750px;
     height: 500px;
