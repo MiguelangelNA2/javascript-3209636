@@ -162,6 +162,7 @@
     background-image: url("img/fondo2.png");
     background-size: cover;
     position: relative;
+    display: none;
 }
 .personaje{
     position: absolute;
@@ -232,6 +233,7 @@
     background-image: url("img/fondo3.png");
     background-size: cover;
     position: relative;
+    display: none;
 }
 .manzana{
     width: 50px;
@@ -268,4 +270,54 @@
 .ma7{
     top: 70%;
     left: 70%;
+}
+
+.boton1{
+    position: absolute;
+    top: 40%;
+    left: 79%;
+    border-radius: 50%;
+    width: 39px;
+    height: 39px
+}
+
+.boton2{
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    border-radius: 50%;
+    width: 39px;
+    height: 39px
+}
+.minifondo{
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.mf1{
+    background-image: url(img/Captura\ de\ pantalla\ 2025-10-16\ 142326.png
+    );
+    background-size: cover;
+}
+.mf2{
+    background-image: url(img/fondo2.png
+    );
+    background-size: cover;
+}
+.mf3{
+    background-image: url(img/fondo3.png
+    );
+    background-size: cover;
+}
+
+.contmini{
+    display: flex;
+    justify-content: center;
+}
+.activa{
+    display: block;
+}
+.escena{
+    display: none;
 }
