@@ -1,0 +1,323 @@
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    width: 750px;
+    height: 500px;
+    background-image: url("img/Captura\ de\ pantalla\ 2025-10-16\ 142326.png");
+    background-size: cover;
+    position: relative;
+}
+.coins{
+    display: flex;
+    background-color: rgba(68, 68, 68, 0.486);
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+}
+.coins2{
+    display: flex;
+    background-color: rgba(68, 68, 68, 0.486);
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+}
+.coins3{
+    display: flex;
+    background-color: rgba(68, 68, 68, 0.486);
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+}
+.contadormonedas{
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+}
+.contadormonedas2{
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+}
+.contadormonedas3{
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+}
+.score{
+    display: flex;
+    background-color: rgba(68, 68, 68, 0.486);
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+}
+.vidas{
+    position: absolute;
+    top: 20px;
+    left: 630px;
+}
+.vida{
+    width: 30px;
+}
+.corazon{
+    width: 30px;
+}
+.pat0{
+    position: absolute;
+    width: 40px;
+}
+.contadorpatos{
+    position: absolute;
+    top: 11%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+}
+.coin{
+    position: absolute;
+    width: 40px;
+}
+.coin2{
+    position: absolute;
+    width: 40px;
+}
+.coin3{
+    position: absolute;
+    width: 40px;
+}
+.moneda{
+    width: 50px;
+    position: absolute;
+}
+
+.m2 {
+    left: 5%;
+}
+.m3 {
+    left:10%;
+}
+.m4 {
+    left: 15%;
+}
+.m5 {
+    left: 20%;
+}
+.nube{
+    position: absolute;
+    width: 150px;
+    top: 10%;
+    left: 50%;
+}
+.pato{
+    position: absolute;
+    width: 80px;
+    top: 60%;
+    left: 20%;
+}
+.p2{
+    left: 70%;
+}
+
+/* animacion monedas */
+
+@keyframes salto {
+    0% {transform: translateY(0); opacity: 1;}
+    50% {transform: translateY(-60px);}
+    100% {transform: translateY(0);opacity: 0;}
+}
+.saltar{
+    animation: salto 0.6s ease forwards;
+}
+
+.bajar{
+    animation: salto 0.6s ease reverse;
+}
+
+/* animacion nube */
+
+@keyframes moverNube {
+    0% {left: 50%;}
+    100% {left: 70%;}
+}
+.movernube{
+    animation: moverNube 10s linear infinite alternate;
+}
+
+.contenedor2{
+    width: 750px;
+    height: 500px;
+    background-image: url("img/fondo2.png");
+    background-size: cover;
+    position: relative;
+    display: none;
+}
+.personaje{
+    position: absolute;
+    width: 60px;
+    top: 58%;
+    left: 19%;
+}
+
+.m11{
+    position: absolute;
+    left: 60%;
+    top: 60%;
+}
+.m21{
+    position: absolute;
+    left: 55%;
+    top: 60%;
+}
+.m31{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+}
+.m41{
+    position: absolute;
+    left: 45%;
+    top: 60%;
+}
+
+.moverpersonaje{
+    animation: moverPersonaje 0.8s linear infinite alternate;
+}
+
+@keyframes moverPersonaje{
+    0% {left: 19%;}
+    100% {left: 32%;}
+}
+@keyframes moverma4{
+    0% {left: 50%;}
+    100% {left: 32%;}
+}
+.moverma4{
+    animation: moverma4 0.8s linear infinite alternate;
+}
+@keyframes moverma5{
+    0% {left: 40%;}
+    100% {left: 62%;}
+}
+.moverma5{
+    animation: moverma5 0.9s linear infinite alternate;
+}
+@keyframes moverma6{
+    0% {left: 30%;}
+    100% {left: 72%;}
+}
+.moverma6{
+    animation: moverma6 0.9s linear infinite alternate;
+}
+@keyframes movermanz{
+    100% {top: 72px;}
+}
+.movermanz{
+    animation: movermanz 0.9s linear infinite alternate;
+}
+.contenedor3{
+    width: 750px;
+    height: 500px;
+    background-image: url("img/fondo3.png");
+    background-size: cover;
+    position: relative;
+    display: none;
+}
+.manzana{
+    width: 50px;
+    position: absolute;
+}
+.manz{
+    width: 50px;
+    position: absolute;
+}
+.ma1{
+    top: 30%;
+    left: 50%;
+}
+.ma2{
+    top: 80%;
+    left: 30%;
+}
+.ma3{
+    top: 40%;
+    left: 70%;
+}
+.ma4{
+    top: 60%;
+    left: 50%;
+}
+.ma5{
+    top: 10%;
+    left: 40%;
+}
+.ma6{
+    top: 40%;
+    left: 30%;
+}
+.ma7{
+    top: 70%;
+    left: 70%;
+}
+
+.boton1{
+    position: absolute;
+    top: 40%;
+    left: 79%;
+    border-radius: 50%;
+    width: 39px;
+    height: 39px
+}
+
+.boton2{
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    border-radius: 50%;
+    width: 39px;
+    height: 39px
+}
+.minifondo{
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.mf1{
+    background-image: url(img/Captura\ de\ pantalla\ 2025-10-16\ 142326.png
+    );
+    background-size: cover;
+}
+.mf2{
+    background-image: url(img/fondo2.png
+    );
+    background-size: cover;
+}
+.mf3{
+    background-image: url(img/fondo3.png
+    );
+    background-size: cover;
+}
+
+.contmini{
+    display: flex;
+    justify-content: center;
+}
+.activa{
+    display: block;
+}
+.escena{
+    display: none;
+}
