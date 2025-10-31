@@ -162,7 +162,6 @@
     background-image: url("img/fondo2.png");
     background-size: cover;
     position: relative;
-    display: none;
 }
 .personaje{
     position: absolute;
@@ -233,7 +232,6 @@
     background-image: url("img/fondo3.png");
     background-size: cover;
     position: relative;
-    display: none;
 }
 .manzana{
     width: 50px;
@@ -316,7 +314,7 @@
     justify-content: center;
 }
 .activa{
-    display: block;
+    display: block!important;
 }
 .escena{
     display: none;

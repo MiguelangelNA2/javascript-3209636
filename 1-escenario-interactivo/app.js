@@ -13,7 +13,7 @@ console.log(contadorMonedas);
 
 monedas.forEach( item => {
     //hace lo que yo le diga aqui
-    console.log("elemento: ", item);
+    //console.log("elemento: ", item);
     /* item.style.filter = "grayscale(1)"; */
 
     item.addEventListener("click", () => {//() =>  es igual a function
@@ -42,3 +42,27 @@ patos.forEach( item => {
     }, {once: true})
 })
 
+//////////////////////////////////////////////////////////////
+//carrusel
+//1. variables
+const escenas = document.querySelectorAll(".escena")
+const btnanterior = document.querySelector(".boton1")
+const btnsiguiente = document.querySelector(".boton2")
+const miniaturas = document.querySelectorAll(".minifondo")
+let indice = 0
+
+console.log(escenas)
+console.log(btnanterior)
+console.log(btnsiguiente)
+console.log(miniaturas)
+//
+//2.funciones
+function mostrarEscena (i){
+    for (let j = 0; j < escenas.length; j++) {
+        escenas[j].classList.remove("activa") 
+    }
+    
+    escenas[i].classList.add("activa")
+}
+mostrarEscena (1)
+//3.eventos
