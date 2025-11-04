@@ -63,6 +63,27 @@ function mostrarEscena (i){
     }
     
     escenas[i].classList.add("activa")
+
+    indice = i
+
 }
-mostrarEscena (1)
+mostrarEscena (2)
+
+//funcion 
+btnsiguiente.addEventListener("click",() =>{
+    indice = indice - 1
+    if (indice < 0){
+        indice = escenas.length -1 //para ir a ultima imagen
+    }
+    mostrarEscena(indice)
+})
+btnanterior.addEventListener("click",() =>{
+    indice = indice + 1
+    if (indice > 2){
+        indice = 0 //para ir a primera imagen
+    }
+    mostrarEscena(indice)
+})
+
+
 //3.eventos
