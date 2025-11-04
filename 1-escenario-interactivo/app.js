@@ -79,11 +79,17 @@ btnsiguiente.addEventListener("click",() =>{
 })
 btnanterior.addEventListener("click",() =>{
     indice = indice + 1
-    if (indice > 2){
+    if (indice > escenas.length -1){
         indice = 0 //para ir a primera imagen
     }
     mostrarEscena(indice)
 })
-
+//funcion miniatura
+miniaturas.forEach((min,i) => {
+    min.addEventListener("click", () =>{
+        mostrarEscena(i)
+    })
+    
+});
 
 //3.eventos
