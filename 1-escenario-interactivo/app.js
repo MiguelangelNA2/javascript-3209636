@@ -3,7 +3,8 @@ console.log(monedas);//no puede dar null
 const patos = document.querySelectorAll('.pato')
 let i = 0
 let j = 0
-
+let monedassonido = new Audio("sonidos/monedasonido.mp3")
+let patosonido = new Audio("sonidos/pato.mp3")
 // Contadores
 let contadorMonedas = document.querySelector('.contadormonedas');
 let contadorPatos = document.querySelector('.contadorpatos');
@@ -21,12 +22,14 @@ monedas.forEach( item => {
         item.style.filter = "grayscale(1)"
         i++
         contadorMonedas.textContent = i
+        monedassonido.play()
+        monedassonido.currentTime = 0
+        
 })
 
     item.addEventListener("animationend", () => {
         item.style.display = "none"
     }, {once: true})
-
 })
 
 patos.forEach( item => {
@@ -35,6 +38,8 @@ patos.forEach( item => {
         item.style.filter = "grayscale(1)"
         j++ 
         contadorPatos.textContent = j
+        patosonido.play()
+        patosonido.currentTime = 0
     })
 
     item.addEventListener("animationend", () => {

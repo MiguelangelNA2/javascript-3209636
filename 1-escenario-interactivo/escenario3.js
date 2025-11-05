@@ -4,6 +4,8 @@ const corazones = document.querySelectorAll('.corazon')
 let v = 0
 let coins = document.querySelector('.contadormonedas3')
 let fondo3 = document.querySelector('.contenedor3')
+let manzanassonido = new Audio ("sonidos/ganar.mp3")
+let manzanaenvenenadasonido = new Audio ("sonidos/perder.mp3")
 
 manzanas.forEach( item => {
     console.log("elemento: ", item);
@@ -13,6 +15,8 @@ manzanas.forEach( item => {
         item.style.filter = "grayscale(1)"
         v++
         coins.textContent = v
+        manzanassonido.play()
+        manzanassonido.currentTime = 0
     })
 })
 manzanasEnvenenadas.forEach( item => {
@@ -21,7 +25,10 @@ manzanasEnvenenadas.forEach( item => {
         item.style.filter = "grayscale(1)"
         v--
         coins.textContent = v
+        manzanaenvenenadasonido.play()
+        manzanaenvenenadasonido.currentTime = 0
     },{once: true})
+
 })
 
 corazones.forEach( item => {
