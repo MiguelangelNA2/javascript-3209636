@@ -53,3 +53,15 @@ button {
     padding: 10px;
     border-radius: 5px;
 }
+@media (max-width:768px){
+    .lista {
+        left: 41%;
+    }
+}
+
+@media (max-width:555px){
+    .pelicula {
+        text-align: center;
+        width: 90%;
+    }
+}
