@@ -53,7 +53,18 @@ button {
     padding: 10px;
     border-radius: 5px;
 }
+
+@media (max-width:1024px){
+    .lista {
+        left: 41%;
+    }
+}
+
 @media (max-width:768px){
+    .pelicula {
+        text-align: center;
+        width: 90%;
+    }
     .lista {
         left: 41%;
     }
@@ -63,5 +74,12 @@ button {
     .pelicula {
         text-align: center;
         width: 90%;
+    }
+    .titulo{
+        left: 27%;
+    }
+    .lista {
+        top: 10%;
+        left: 20%;
     }
 }
