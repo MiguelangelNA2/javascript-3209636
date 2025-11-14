@@ -1,7 +1,7 @@
 let comic = {
   "NombreComic": "Cenizas de honor",
   "Sinopsis": "un caballero a traves de la epoca medieval",
-  "Year": 2016,
+  "Year":2026,
   "autores": ["miguel","alexis","luna","isabel"],
   "Personajes": ["sir leon","lady elvira","ninnove","brujas del alba","rey","sirvienta","cristobal colon"],
   "genero": ["historia","fantasia","ciencia ficcion","aventura"],
