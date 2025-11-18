@@ -5,35 +5,144 @@ let comic = {
   "autores": ["miguel","alexis","luna","isabel"],
   "Personajes": ["sir leon","lady elvira","ninnove","brujas del alba","rey","sirvienta","cristobal colon"],
   "genero": ["historia","fantasia","ciencia ficcion","aventura"],
-  "portada": "./imagenes/portada.jpg",
+  "portada": "./imagenes/fondo.png",
   "escenas": [
     {
       "id": 1,
       "nombre": 29,
       "personajes": ["sir leon","lady elvira"],
-      "image": "./imagenes/portada1.jpg"
+      "image":"./imagenes/fondo.png",
     },
+
     {
-      "name": "Madame Uppercut",
-      "age": 39,
-      "secretIdentity": "Jane Wilson",
-      "powers": [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
     },
+
     {
-      "name": "Eternal Flame",
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+  ],
+
+   "person": [
+    {
+      "id": 1,
+      "name": "Sir leon de aquitania",
+      "image":"./imagenes/fondo.png",
       "age": 1000000,
-      "secretIdentity": "Unknown",
       "powers": [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
+        "Inmortalidad",
+        "Inmune a cualquier enfermedad",
       ]
-    }
+    },
+    
+    {
+      "name": "Madame Elvira",
+      "age": 26,
+      "powers": [
+        "estratega militar",
+      ]
+    },
+     {
+      "name": "Sirvienta",
+      "age": 20,
+      "identidad": "Olivia Marcelle",
+      "powers": [
+        "Sigilo",
+      ]
+    },
   ]
 }
