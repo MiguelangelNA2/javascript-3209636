@@ -1,6 +1,8 @@
 const info = document.querySelector (".pelicula");
 const img = document.querySelector (".contenedorPersonajes")
-const infoComic = document.querySelector (".contenedorEscenas")
+const infoComic = document.querySelector (".contenedorimagenes")
+const personajes = document.querySelector (".contenedorimagenes2")
+
 
 //modificar contenido de info 
 info.innerHTML = `
@@ -16,7 +18,7 @@ info.innerHTML = `
     </p>
     <button><b>VER AHORA</b></button>
 `
-img.innerHTML = `
+/* img.innerHTML = `
 <div>
     <h1 class="escenas">Personajes</h1>
     <div class="contenedorimagenes">
@@ -26,7 +28,7 @@ img.innerHTML = `
         <div class="cuadro"></div>
     </div>
 </div>
-`
+` */
 // aqui vamos a poner las tarjetas de escenas
 /* console.log (comic.escenas); */
 comic.escenas.forEach( escena => {
@@ -37,5 +39,16 @@ comic.escenas.forEach( escena => {
         <p>${escena.nombre}</p>
     `
     infoComic.appendChild(miCard);
+    console.log(escena.nombre);
+});
+
+comic.person.forEach( escena => {
+    const miCard = document.createElement("div");
+    miCard.classList.add("tarjeta-person");
+    miCard.innerHTML = `
+        <img class="imagensize" src="${escena.image}" alt="">
+        <p>${escena.name}</p>
+    `
+    personajes.appendChild(miCard);
     console.log(escena.nombre);
 });

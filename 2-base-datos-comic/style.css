@@ -56,8 +56,13 @@ button {
 
 .contenedorEscenas{   
     width: 100%;
-    height: 500px;
+    margin-bottom: 20%;
     background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .escenas{
@@ -65,15 +70,18 @@ button {
     padding: 20px;
     font-size: 50px;
 }
-.cuadro{
-    width: 300px;
-    height: 300px;
+.tarjeta-cap{
+    width: 100%;
+   margin-bottom: 0;
     background-color: gray;
     border-radius: 50px;
 }
-.tarjeta-cap{
-    width: 300px;
-    height: 300px;
+.tarjeta-cap p {
+    margin-top: -10px;
+}
+.tarjeta-person{
+    width: 30%;
+   margin-bottom: 0;
     background-color: gray;
     border-radius: 50px;
 }
@@ -83,8 +91,19 @@ button {
     border-radius: 50px;
 }
 .contenedorimagenes{
+    width: 90%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5%;
+    justify-content: center;
+    border-radius: 50px;
+}
+.contenedorimagenes2{
+    width: 90%;
     display: flex;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5%;
     justify-content: center;
     border-radius: 50px;
 }
@@ -92,6 +111,15 @@ button {
     width: 100%;
     height: 500px;
     background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+.contenedorperson{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 @media (max-width:1024px){
     .lista {

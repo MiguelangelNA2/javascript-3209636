@@ -120,20 +120,20 @@ let comic = {
    "person": [
     {
       "id": 1,
+      "name": "Madame Elvira",
+      "age": 26,
+      "powers": [
+        "estratega militar",
+      ]
+    },
+    
+    {
       "name": "Sir leon de aquitania",
       "image":"./imagenes/fondo.png",
       "age": 1000000,
       "powers": [
         "Inmortalidad",
         "Inmune a cualquier enfermedad",
-      ]
-    },
-    
-    {
-      "name": "Madame Elvira",
-      "age": 26,
-      "powers": [
-        "estratega militar",
       ]
     },
      {
