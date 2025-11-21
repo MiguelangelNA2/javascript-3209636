@@ -121,6 +121,7 @@ let comic = {
     {
       "id": 1,
       "name": "Madame Elvira",
+      "image":"./imagenes/esposa de sir leon.png",
       "age": 26,
       "powers": [
         "estratega militar",
@@ -129,7 +130,7 @@ let comic = {
     
     {
       "name": "Sir leon de aquitania",
-      "image":"./imagenes/fondo.png",
+      "image":"./imagenes/sir leon.png",
       "age": 1000000,
       "powers": [
         "Inmortalidad",
@@ -138,6 +139,7 @@ let comic = {
     },
      {
       "name": "Sirvienta",
+      "image":"./imagenes/sirvienta.png",
       "age": 20,
       "identidad": "Olivia Marcelle",
       "powers": [
