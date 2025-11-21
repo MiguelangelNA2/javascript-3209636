@@ -1,5 +1,4 @@
-const info = document.querySelector (".pelicula");
-const img = document.querySelector (".contenedorPersonajes")
+const info = document.querySelector (".pelicula")
 const infoComic = document.querySelector (".contenedorimagenes")
 const personajes = document.querySelector (".contenedorimagenes2")
 

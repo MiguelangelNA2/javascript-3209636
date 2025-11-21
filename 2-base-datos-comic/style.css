@@ -56,11 +56,9 @@ button {
 
 .contenedorEscenas{   
     width: 100%;
-    margin-bottom: 20%;
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -71,8 +69,8 @@ button {
     font-size: 50px;
 }
 .tarjeta-cap{
-    width: 100%;
-   margin-bottom: 0;
+    width: 95%;
+   margin-bottom: 28px;
     background-color: gray;
     border-radius: 50px;
 }
@@ -92,10 +90,9 @@ button {
 }
 .contenedorimagenes{
     width: 90%;
-    height: 20%;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 5%;
     justify-content: center;
     border-radius: 50px;
 }
@@ -135,6 +132,12 @@ button {
     .lista {
         left: 41%;
     }
+    .contenedorimagenes{
+        grid-template-columns: 1fr 1fr;
+    }
+    .contenedorimagenes2{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (max-width:555px){
@@ -149,4 +152,11 @@ button {
         top: 10%;
         left: 20%;
     }
+    .contenedorimagenes{
+        grid-template-columns: 1fr;
+    }
+    .contenedorimagenes2{
+        grid-template-columns: 1fr;
+    }
+
 }
