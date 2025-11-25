@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121b24;
+    color: white;
+    font-family: arial;
+}
+.videoescena{
+    width: 250px;
+    height: 333px;
+    background-color: black;
+    border-radius: 30px;
+    background-image: url(/imagenes/sir\ leon.png);
+    background-size: cover;
+}
+
+.contenedorEscena{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.botones{
+    margin-top: 73px;
+    gap: 20px;
+}
+button {
+    color: white;
+    background-color:rgb(0, 140, 255) ;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(0, 100, 200);
+    cursor: pointer;
+}
+.descripcionEscena{
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.descripcionEscena p{
+    width: 80%;
+}
+.descripcionEscena h1{
+    text-align: center;
+}   
+.contenedor {
+    width: 100%;
+    height: 11vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.titulo{
+    position: absolute;
+    top:1%;
+    left: 3%;
+}
+.lista {
+    position:absolute;
+    top: 2%;
+    left: 15%;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.lista li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.busqueda {
+    position:absolute;
+    top: 3%;
+    right: 3%;
+}
+
+@media (max-width:1024px){
+    .lista {
+        left: 41%;
+    }
+}
+
+@media (max-width:768px){
+    .lista {
+        left: 41%;
+    }
+}
+
+@media (max-width:555px){
+    .titulo{
+        left: 27%;
+    }
+    .lista {
+        top: 10%;
+        left: 20%;
+    }
+    .contenedor{
+        height: 18vh;
+    }
+}
