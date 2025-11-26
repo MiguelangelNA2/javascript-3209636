@@ -34,8 +34,10 @@ comic.escenas.forEach( escena => {
     const miCard = document.createElement("div");
     miCard.classList.add("tarjeta-cap");
     miCard.innerHTML = `
+    <a href="escenas.html?id=${escena.id}">
         <img class="imagensize" src="${escena.image}" alt="">
         <p>${escena.nombre}</p>
+    </a>
     `
     infoComic.appendChild(miCard);
     console.log(escena.nombre);
@@ -45,9 +47,11 @@ comic.person.forEach( escena => {
     const miCard = document.createElement("div");
     miCard.classList.add("tarjeta-person");
     miCard.innerHTML = `
+    <a href="personajes.html?id=${escena.id}">
         <img class="imagensize" src="${escena.image}" alt="">
         <p>${escena.name}</p>
+    </a>
     `
     personajes.appendChild(miCard);
-    console.log(escena.nombre);
+    console.log(escena.name);
 });
