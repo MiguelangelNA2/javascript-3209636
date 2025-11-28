@@ -1,4 +1,4 @@
-let comic = {
+export let comic = {
   "NombreComic": "Cenizas de honor",
   "Sinopsis": "un caballero a traves de la epoca medieval",
   "Year":2026,
@@ -141,6 +141,7 @@ let comic = {
       "name": "Madame Elvira",
       "image":"./imagenes/esposa de sir leon.png",
       "age": 26,
+      "descripcion": "Madame Elvira, esposa de sir leon, una estratega militar experta en tácticas de guerra y liderazgo.",
       "powers": [
         "estratega militar",
       ]
@@ -151,6 +152,7 @@ let comic = {
       "name": "Sir leon de aquitania",
       "image":"./imagenes/sir leon.png",
       "age": 1000000,
+      "descripcion": "Sir leon, principe de Aquitania y caballero inmortal con habilidades sobrehumanas.",
       "powers": [
         "Inmortalidad",
         "Inmune a cualquier enfermedad",
@@ -162,6 +164,7 @@ let comic = {
       "image":"./imagenes/sirvienta.png",
       "age": 20,
       "identidad": "Olivia Marcelle",
+      "descripcion": "Olivia Marcelle, una joven y hermosa sirvienta que trabaja en el castillo real.",
       "powers": [
         "Sigilo",
       ]

@@ -1,3 +1,4 @@
+import { comic } from "./bd.js"
 const info = document.querySelector (".pelicula")
 const infoComic = document.querySelector (".contenedorimagenes")
 const personajes = document.querySelector (".contenedorimagenes2")
