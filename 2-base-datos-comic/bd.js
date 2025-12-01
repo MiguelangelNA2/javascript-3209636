@@ -13,6 +13,8 @@ export let comic = {
       "nombre": "escena 1",
       "personajes": ["sir leon","lady elvira"],
       "image":"./imagenes/fondo.png",
+      "sipnosis": "En un reino asolado por la guerra, Sir Leon, un caballero inmortal, lucha por proteger a su amada esposa, Lady Elvira, mientras enfrenta desafíos sobrenaturales y traiciones políticas que amenazan con destruir todo lo que ama.",
+      "video": "./imagenes/video lyrics-ficha 3209636.mp4",
     },
 
     {
