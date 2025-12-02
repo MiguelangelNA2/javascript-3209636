@@ -121,6 +121,13 @@ a {
     align-items: center;
     text-align: center;
 }
+.hoverr:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+button:hover {
+    background-color: rgb(3, 63, 131);
+}
 @media (max-width:1024px){
     .lista {
         left: 41%;
