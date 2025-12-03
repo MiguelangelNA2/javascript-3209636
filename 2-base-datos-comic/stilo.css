@@ -80,6 +80,9 @@ nav{
     top: 3%;
     right: 3%;
 }
+a {
+    text-decoration: none;
+}
 
 @media (max-width:1024px){
     .lista {

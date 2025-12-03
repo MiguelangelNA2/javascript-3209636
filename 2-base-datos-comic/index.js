@@ -56,3 +56,14 @@ comic.person.forEach( escena => {
     personajes.appendChild(miCard);
     console.log(escena.name);
 });
+setTimeout(() => {
+    const loader = document.querySelector(".loader");
+    if (loader) {
+        loader.classList.add("hide");
+    }
+}, 2000);
+const escenasSection = document.querySelector(".contenedorEscenas");
+document.querySelector('a[href="#contenedorEscenas"]').addEventListener("click", (e) => {
+    e.preventDefault();
+    escenasSection.scrollIntoView({ behavior: "smooth" });
+});
