@@ -16,7 +16,7 @@ info.innerHTML = `
     <br>
     <b>Personajes:</b> ${comic.Personajes.join(", ")}
     </p>
-    <button><b>VER AHORA</b></button>
+    <a href="https://miguelangelna2.github.io/javascript-3209636/2-base-datos-comic/escenas.html?id=1"><button><b>VER AHORA</b></button></a>
 `
 /* img.innerHTML = `
 <div>

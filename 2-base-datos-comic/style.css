@@ -54,6 +54,25 @@ button {
     padding: 10px;
     border-radius: 5px;
 }
+.contenedorCarrusel{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.carrusel{
+    width: 90%;
+    height: 70%;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: gray;
+}
 
 .contenedorEscenas{   
     width: 100%;
@@ -210,6 +229,29 @@ button:hover {
     transform: translate(-50%, -50%);
     z-index: 9999;
 }
-.loader.hide {
+.hide {
     animation: fadeOn 0.5s ease-in-out forwards;
+}
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+    }
+    16.66% {
+        transform: translateX(-11%);
+    }
+    33.33% {
+        transform: translateX(-50%);
+    }
+    66.66% {
+        transform: translateX(-55%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.carrusel__lista{
+    display: flex;
+    width: 300%;
+    height: 100%;
+    animation: mover 10s linear infinite;
 }
