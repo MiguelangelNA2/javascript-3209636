@@ -36,7 +36,7 @@ comic.escenas.forEach( escena => {
     miCard.classList.add("tarjeta-cap", "hoverr");
     miCard.innerHTML = `
     <a href="escenas.html?id=${escena.id}">
-        <img class="imagensize" src="${escena.image}" alt="">
+        <img class="imagensize img-hover-color" src="${escena.image}" alt="">
         <p>${escena.nombre}</p>
     </a>
     `

@@ -3,6 +3,9 @@
     font-family: arial;
     line-height: 30px;
 }
+body{
+    margin: 0;
+}
 nav{
     display: flex;
     align-items: center;
@@ -39,7 +42,7 @@ nav{
     height: 100vh;
     background-image: url("imagenes/fondo.png");
     background-size: cover;
-    animation: fadeIn 5s ease-in-out; 
+    animation: fadeIn 3s ease-in-out; 
 }
 
 .pelicula {
@@ -47,6 +50,7 @@ nav{
     top: 30%;
     left: 3%;
     width: 40%;
+    animation: fadeIn2 6s ease-in-out;
 }
 button {
     background-color:rgb(0, 140, 255) ;
@@ -60,11 +64,12 @@ button {
     left: 45%;
     width: 50%;
     height: 70%;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    animation: fadeIn3 6s ease-in-out;
 }
 .carrusel{
     width: 90%;
@@ -72,6 +77,7 @@ button {
     overflow: hidden;
     border-radius: 20px;
     background-color: gray;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
 }
 
 .contenedorEscenas{   
@@ -148,6 +154,15 @@ a {
 button:hover {
     background-color: rgb(3, 63, 131);
 }
+.img-hover-color {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.img-hover-color:hover {
+  filter: grayscale(0%);
+}
+
 @media (max-width:1024px){
     .lista {
         left: 41%;
@@ -204,6 +219,26 @@ button:hover {
     }
     100% {
         opacity: 0;
+    }
+}
+@keyframes fadeIn2 {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeIn3 {
+    0% {
+        opacity: 0;
+        transform: translateX(80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
     }
 }
 
