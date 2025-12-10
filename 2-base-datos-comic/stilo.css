@@ -108,3 +108,14 @@ nav{
         height: 18vh;
     }
 }
+@media (max-width:1228px){
+    .lista {
+        left: 23%;
+    }
+}
+
+@media (max-width:1024px){
+    .lista {
+        left: 41%;
+    }
+}
